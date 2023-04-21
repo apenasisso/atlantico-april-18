@@ -95,7 +95,6 @@ class NotebookUtils(Magics):
     }}
     pre {{
         font-size: 12px;
-        background-color: #000000;
         padding: 10px;
         border-radius: 4px;        
     }}
