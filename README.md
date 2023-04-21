@@ -13,3 +13,6 @@ You can also run it using JupyterLab, but the output might be slightly off.
 ```bash
 jupyter lab example.ipynb
 ```
+
+### Notes
+It is important to note that the entire notebook is being sent as part of the prompt. As a result, token consumption can increase rapidly, making each request potentially very expensive.
